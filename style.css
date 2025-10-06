@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+.camera-container {
+    margin-bottom: 20px;
+}
+
+#camera-feed {
+    width: 100%;
+    max-width: 600px;
+    border: 5px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#capture-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#capture-button:hover {
+    background-color: #2980b9;
+}
